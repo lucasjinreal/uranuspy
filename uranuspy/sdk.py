@@ -99,7 +99,7 @@ class UranusSDK(object):
         rp = requests.post(login_url, data=data)
         if rp.ok:
             rp = rp.json()
-            print(rp)
+            # print(rp)
             if rp['status'] == 'success':
                 token = rp["data"]["token"]
                 user_addr = rp["data"]["user_addr"]
@@ -114,6 +114,7 @@ class UranusSDK(object):
                 with open(self.token_store_f, 'wb') as f:
                     pickle.dump(u, f)
                 self.is_login = True
+                print('[uranuspy] login as: ', user_nick_name)
             else:
                 print('login failed.')
                 exit()

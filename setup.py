@@ -22,7 +22,7 @@ install alfred into local bin dir.
 from setuptools import setup, find_packages
 
 setup(name='uranuspy',
-      version='0.2',
+      version='0.2.2',
       keywords=['chatbot', 'wechat', 'message', 'telegram'],
       description='''
       uranuspy is a python SDK of Setu messaging using for building chatbots
