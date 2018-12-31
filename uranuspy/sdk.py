@@ -59,7 +59,9 @@ class UranusUserCard(object):
 class UranusSDK(object):
 
     def __init__(self):
-        self.token_store_dir = os.path.dirname(os.path.abspath(__file__))
+        self.token_store_dir = os.path.expanduser('~/.uranuspy')
+        if not os.path.exists(self.token_store_dir):
+            os.makedirs(self.token_store_dir)
         self.token_store_f = os.path.join(self.token_store_dir, 'uranuspy.pkl')
 
         self.token = None
