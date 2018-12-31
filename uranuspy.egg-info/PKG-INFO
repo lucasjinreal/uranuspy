@@ -1,0 +1,17 @@
+Metadata-Version: 1.0
+Name: uranuspy
+Version: 0.2
+Summary: 
+      uranuspy is a python SDK of Setu messaging using for building chatbots
+      
+Home-page: https://github.com/jinfagang/uranuspy
+Author: Lucas Jin
+Author-email: jinfagang19@163.com
+License: GPL
+Description: 
+              uranuspy is a python API of Setu client, you can using uranuspy build your own
+              chat bot inside Setu universe. once it done, you can go chat with your bot in Setu
+              for more information, download setu from http://loliloli.pro
+              
+Keywords: chatbot,wechat,message,telegram
+Platform: any
