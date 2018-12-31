@@ -37,7 +37,9 @@ class UranusOp(object):
         self.user_acc = user_acc
         self.user_password = user_password
 
-        self.base_dir = os.path.dirname(os.path.abspath(__file__))
+        self.base_dir = os.path.expanduser('~/.uranuspy')
+        if not os.path.exists(self.base_dir):
+            os.makedirs(self.base_dir)
         self._subscribers_f = os.path.join(self.base_dir, 'subscribers.pkl')
 
         self.subscribers_users = []
