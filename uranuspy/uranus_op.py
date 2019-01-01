@@ -73,7 +73,7 @@ class UranusOp(object):
             with open(self._subscribers_f, 'rb') as f:
                 self.subscribers_users = pickle.load(f)
 
-    def remove_user_to_subscribers(self, user_address):
+    def remove_user_from_subscribers(self, user_address):
         if os.path.exists(self._subscribers_f):
             self.subscribers_users = [i for i in self.subscribers_users if i['user_addr'] != user_address]
             with open(self._subscribers_f, 'wb') as f:

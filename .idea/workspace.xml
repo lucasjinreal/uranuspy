@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed715b7f-35c3-4bc3-8650-299a57a3154d" name="Default Changelist" comment="" />
+    <list default="true" id="ed715b7f-35c3-4bc3-8650-299a57a3154d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/uranuspy-0.2.1.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uranuspy.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/uranuspy.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uranuspy/uranus_op.py" beforeDir="false" afterPath="$PROJECT_DIR$/uranuspy/uranus_op.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,12 +14,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uranuspy/core.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+            <state relative-caret-position="413">
+              <caret line="123" column="27" selection-start-line="123" selection-start-column="27" selection-end-line="123" selection-end-column="27" />
+              <folding>
+                <element signature="e#789#805#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -22,17 +30,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uranuspy/sdk.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="202" column="18" selection-start-line="202" selection-start-column="18" selection-end-line="202" selection-end-column="18" />
+            <state relative-caret-position="2955">
+              <caret line="205" column="18" selection-start-line="205" selection-start-column="18" selection-end-line="205" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/uranuspy/uranus_op.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="148" column="79" selection-start-line="148" selection-start-column="79" selection-end-line="148" selection-end-column="79" />
+            <state relative-caret-position="1350">
+              <caret line="90" column="53" lean-forward="true" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
               <folding>
                 <element signature="e#803#821#0" expanded="true" />
               </folding>
@@ -40,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+            <state relative-caret-position="540">
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -53,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/upload_pypi.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -66,9 +74,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/uranuspy/uranus_op.py" />
         <option value="$PROJECT_DIR$/uranuspy/core.py" />
         <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/uranuspy/uranus_op.py" />
       </list>
     </option>
   </component>
@@ -87,6 +95,11 @@
           <expand>
             <path>
               <item name="uranuspy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uranuspy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uranuspy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uranuspy" type="462c0819:PsiDirectoryNode" />
               <item name="uranuspy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -124,25 +137,21 @@
       <option name="presentableId" value="Default" />
       <updated>1546248608125</updated>
       <workItem from="1546248612369" duration="714000" />
+      <workItem from="1546338811279" duration="21000" />
+      <workItem from="1546340054227" duration="23000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="714000" />
+    <option name="totallyTimeSpent" value="758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24394184" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17043619" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -150,34 +159,23 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/uranuspy/uranus_op.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="148" column="79" selection-start-line="148" selection-start-column="79" selection-end-line="148" selection-end-column="79" />
-          <folding>
-            <element signature="e#803#821#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uranuspy/sdk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="202" column="18" selection-start-line="202" selection-start-column="18" selection-end-line="202" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python3.6/site-packages/websocket/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -190,22 +188,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uranuspy/core.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        <state relative-caret-position="413">
+          <caret line="123" column="27" selection-start-line="123" selection-start-column="27" selection-end-line="123" selection-end-column="27" />
+          <folding>
+            <element signature="e#789#805#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uranuspy/sdk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2955">
+          <caret line="205" column="18" selection-start-line="205" selection-start-column="18" selection-end-line="205" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/upload_pypi.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
+    <entry file="file://$PROJECT_DIR$/uranuspy/uranus_op.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+        <state relative-caret-position="1350">
+          <caret line="90" column="53" lean-forward="true" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
+          <folding>
+            <element signature="e#803#821#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
