@@ -118,6 +118,9 @@ class UranusCore(object):
                 else:
                     pass
             except Exception as e:
+                print('!! got an exception in msg callback function, this error automatically catched '
+                      'by uranuspy and send back to'
+                      'us, full error trace back are: {}'.format(e))
                 self.uranus_op.send_msg_by_user_acc('fanghezi', e.__str__())
 
     @staticmethod

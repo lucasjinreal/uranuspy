@@ -158,7 +158,7 @@ class UranusOp(object):
 
     def send_img_msg(self, target_addr, msg):
         if self.has_connection:
-            self.uranus_sdk.send_img_msg(target_addr, msg, self.ws_conn)
+            self.uranus_sdk.send_img_msg_v2(target_addr, msg, self.ws_conn)
         else:
             print('~~~~~~~~ uranuspy send failed. ............................no connection')
 
