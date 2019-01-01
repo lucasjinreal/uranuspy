@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed715b7f-35c3-4bc3-8650-299a57a3154d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/uranuspy-0.2.2.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/uranuspy-0.2.3.tar.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/uranuspy.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/uranuspy.egg-info/PKG-INFO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uranuspy/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/uranuspy/core.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uranuspy/uranus_op.py" beforeDir="false" afterPath="$PROJECT_DIR$/uranuspy/uranus_op.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -141,12 +137,12 @@
       <workItem from="1546248612369" duration="714000" />
       <workItem from="1546338811279" duration="21000" />
       <workItem from="1546340054227" duration="23000" />
-      <workItem from="1546344704507" duration="1143000" />
+      <workItem from="1546344704507" duration="1237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1901000" />
+    <option name="totallyTimeSpent" value="1995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
